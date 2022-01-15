@@ -49,7 +49,6 @@
    
     <!--烟花部分-->
     <canvas id="cas" style="background-color: rgba(0, 5, 24, 1); z-index: 9999">
-      浏览器不支持canvas
     </canvas>
     <div class="city">
       <img src="img/city.png" alt="" />
@@ -57,10 +56,10 @@
     <img src="img/moon.png" alt="" id="moon" style="visibility: hidden" />
     <div style="display: none">
       <div class="shape">🏮生日快乐!</div>
-      <div class="shape">专属于你的浪漫</div>
+      <div class="shape">属于你的浪漫</div>
       <div class="shape"><img src="./assets/img/01.png" alt="" /></div>
       <div class="shape">🏮健康快乐</div>
-      <div class="shape"> 永远的十八岁！</div>
+      <div class="shape"> 永远十八岁！</div>
       <div class="shape"><img src="01.png" alt="" /></div> 
       <div class="shape"><img src="01.png" alt="" /></div> 
       <div class="shape">💘💘💘</div>
@@ -70,7 +69,7 @@
     </div>
     <!--音乐部分/可替换-->
     <audio autoplay loop id="music">
-      <source src="mp3/xinnian.mp3" />
+      <source src="../mp3/xinnian.mp3" />
     </audio>
     <iframe
       id="iframMusic"
@@ -81,5 +80,8 @@
     <script src="jquery.min.js"></script>
     <script src="fire.js"></script>
     <script src="talk.js"></script>
+    <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            	src="../mp3/xinnian.mp3">
+	</audio>
   </body>
 </html>
